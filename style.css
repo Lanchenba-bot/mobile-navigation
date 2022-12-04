@@ -44,9 +44,9 @@ button{
 .nav{
     display: inline-flex;
     flex-wrap: wrap;
-    gap: 2.5em;
+   
     position: absolute;
-    align-items: stretch;
+    align-items: space-evenly;
     justify-content: center;
     bottom: 0;
     height: 4em;
@@ -89,7 +89,7 @@ button{
         bottom: 0;
         border-radius: 0px;
         height: 5em;
-        gap: 4em;
+        
     }
 
     .fas{
