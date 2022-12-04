@@ -62,8 +62,9 @@ button{
 .fas:hover{
     cursor: pointer;
     color: var(--secondary);
-    background-color: #0002A1;
 }
+
+
 @media only screen and (max-width: 400px) {
     body{
         position: relative;
@@ -87,6 +88,14 @@ button{
         position: fixed;
         bottom: 0;
         border-radius: 0px;
+        height: 5em;
+        gap: 4em;
+    }
+
+    .fas{
+       
+        font-size: 1.5em;
+
     }
 
 
