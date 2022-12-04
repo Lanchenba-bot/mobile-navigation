@@ -62,8 +62,12 @@ button{
 .fas:hover{
     cursor: pointer;
     color: var(--secondary);
+    background-color: #0002A1;
 }
 @media only screen and (max-width: 400px) {
+    body{
+        position: relative;
+    }
     img{
         height: 100vh;
         width: 100%;
@@ -80,6 +84,8 @@ button{
         overflow:auto;
     }
     .nav{
+        position: fixed;
+        bottom: 0;
         border-radius: 0px;
     }
 
